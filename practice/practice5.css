@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 10px;
+}
+
+header{
+    background-color: palegreen;
+    height: 30px;
+}
+#div1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    display: inline-block;
+    margin: 10px;
+}
+#container{
+    border: 3px solid black;
+    margin: 10px;
+}
+#box4{
+    right: 10px;
+    position: fixed;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: aquamarine;
+}
