@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .progress_container{
+            height: 24px;
+            width: 90%;
+            background-color: gainsboro;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+        .progress_bar{
+            background-color: mediumorchid;
+            height: 100%;
+           
+            border-radius: 20px;
+            animation: animate_progress 4s ;
+        }
+        @keyframes animate_progress {
+            /* from{width: 0%;}
+            to{width: 100%;} */
+            0%{width: 0%;}
+            90%{width: 95%;}
+            95%{width: 70%;}
+            100%{width: 100%;}
+
+        }
+    </style>
+</head>
+<body>
+    <div class="progress_container">
+        <div class="progress_bar">
+
+        </div>
+    </div>
+</body>
+</html>

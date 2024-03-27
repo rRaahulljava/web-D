@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+   <title>css transform</title>
+   <style>
+       .box{
+           margin: 5px;
+           padding: 5px;
+           height: 50px;
+           width: 50px;
+           border: 2px solid black;
+           border-radius: 5px;
+           /* background-color: plum; */
+           position: relative;
+           top: 50px;
+           left: 150px;
+           transition-property: all;
+           transition-duration: 1s;
+           /* transform: rotate(45); */
+           /* transition-timing-function: ; */
+       }
+       #box1{
+           background-color: lime;
+       }
+       #box1:hover{
+          
+           transform: scale(2);
+       }
+       #box2{
+           background-color: blueviolet;
+           
+       }
+       #box2:hover{
+           
+           transform: scale(3);
+       }
+       #box3{
+           background-color: indianred;
+       }
+       #box3:hover{
+           
+           transform: scalex(4);
+       }
+       #box4{
+           background-color: violet;
+       }
+       #box4:hover{
+           
+           transform: scaley(5);
+       }
+   </style>
+</head>
+<body>
+   <div id="box1" class="box">45deg</div>
+   <div id="box2" class="box">180deg</div>
+   <div id="box3" class="box">x 45deg</div>
+   <div id="box4" class="box">y 45deg</div>
+</body>
+</html>
